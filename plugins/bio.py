@@ -117,7 +117,7 @@ async def join_request_handler(client: Client, m: ChatJoinRequest):
             except Exception as e:
                 logger.warning(f"Could not send to log group: {e}")
 
-        else
+        else:
             # Format each tag with bold
             tags_display = '\n'.join([f"<blockquote>● <code>{tag}</code> ♡</blockquote>" for tag in required_tags])
 
