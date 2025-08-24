@@ -86,7 +86,7 @@ async def join_request_handler(client: Client, m: ChatJoinRequest):
                 f"💎 𝐌𝐞𝐦𝐛𝐞𝐫𝐬 𝐂𝐨𝐮𝐧𝐭: <b>{member_count:,}</b> 🚀\n"
                 f"┉‌‌┉‌‌┉‌‌┉‌‌┉‌‌┉‌‌‌‌┉‌‌┉‌‌┉‌‌┉‌‌┉‌‌┉‌‌┉‌‌┉‌‌┉‌‌┉‌‌┉‌‌┉‌‌┉‌‌┉‌‌\n"
             )
-            await m.reply_text(approve_text)
+            await client.send_message(m.from_user.id, approve_text, disable_web_page_preview=True)
 
     # Second message: Warning about removing tags
             warning_text = (
@@ -97,7 +97,7 @@ async def join_request_handler(client: Client, m: ChatJoinRequest):
                 f"Make sure to keep that tag in your Bio to avoid removal. 😉"
                 f"</i></b>"
             )
-            await m.reply_text(warning_text)
+            await client.send_message(m.from_user.id, warning_text, disable_web_page_preview=True)
 
             stickers = [
                 "CAACAgUAAxkBAAKcLmf-E2SXmiXe99nF5KuHMMbeBsEoAALbHAACocj4Vkl1jIJ0iWpmHgQ",
