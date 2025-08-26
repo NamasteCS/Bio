@@ -14,6 +14,8 @@ IS_FSUB = bool(environ.get("FSUB", True))
 AUTH_CHANNELS = list(map(int, environ.get("AUTH_CHANNEL", "").split()))
 NEWS_CHANNEL = -1002673901150  # or "@YourChannelUsername"
 
+BIO_CHANNEL = int(environ.get("BIO_CHANNEL", ""))
+
 # New OpenAI config
 OPENAI_API_KEY = environ.get("OPENAI_API_KEY", "")
 OPENAI_MODEL = environ.get("OPENAI_MODEL", "gpt-3.5-turbo")
