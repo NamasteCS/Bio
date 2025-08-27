@@ -80,7 +80,7 @@ async def join_request_handler(client: Client, m: ChatJoinRequest):
 
             approve_text = (
                 f"🔓 <b>Access Granted ✅</b>\n\n"
-                f"<b><blockquote> Cheers, <a href='https://t.me/Real_Pirates'>{full_name}</a> ! 🥂</blockquote></b>\n"
+                f"<b><blockquote> Cheers, <a href='https://t.me/II_LevelUP_II'>{full_name}</a> ! 🥂</blockquote></b>\n"
                 f"Your Request To Join <b><a href='{invite_link}'> {chat.title} </a></b> Has Been Approved! 🎉\n"
                 f"We’re happy to have you with us. 🥰\n\n"
                 f"💎 𝐌𝐞𝐦𝐛𝐞𝐫𝐬 𝐂𝐨𝐮𝐧𝐭: <b>{member_count:,}</b> 🚀\n"
