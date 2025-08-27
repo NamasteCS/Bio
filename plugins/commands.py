@@ -36,7 +36,7 @@ async def start_message(c, m):
 
     buttons = InlineKeyboardMarkup([
         [InlineKeyboardButton("⇆ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ⇆", url="https://telegram.me/Auto_Join_Request_Approver_X_Bot?startchannel=true&admin=invite_users")],
-        [InlineKeyboardButton("• 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 •", url="https://t.me/+sQXky-6HHq8xMTk1"),
+        [InlineKeyboardButton("• 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 •", url="https://t.me/+4X6ioguOTltmOTE1"),
          InlineKeyboardButton("• 𝐌𝐚𝐢𝐧 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 •", url="https://t.me/+7R-7p7jVoz9mM2M1")],
         [InlineKeyboardButton("⇆ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ ⇆", url="https://telegram.me/X_Queen_chat_bot?startchannel=true&admin=invite_users")],
         [InlineKeyboardButton("⚙️ Settings", callback_data="settings")]
