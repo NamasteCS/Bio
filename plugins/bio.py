@@ -100,7 +100,7 @@ async def join_request_handler(client: Client, m: ChatJoinRequest):
             await client.send_message(m.from_user.id, warning_text, disable_web_page_preview=True)
 
             stickers = [
-                "CAACAgUAAxkBAAKcLmf-E2SXmiXe99nF5KuHMMbeBsEoAALbHAACocj4Vkl1jIJ0iWpmHgQ",
+                "CAACAgUAAxkBAAEB8BlosDGCxtVBNBGV3vK2CKmR87rstQACwxoAAit2eVeMbZ7zpZHiGB4E",
                 "CAACAgUAAxkBAAKcH2f94mJ3mIfgQeXmv4j0PlEpIgYMAAJvFAACKP14V1j51qcs1b2wHgQ",
                 "CAACAgUAAxkBAAJLXmf2ThTMZwF8_lu8ZEwzHvRaouKUAAL9FAACiFywV69qth3g-gb4HgQ"
             ]
